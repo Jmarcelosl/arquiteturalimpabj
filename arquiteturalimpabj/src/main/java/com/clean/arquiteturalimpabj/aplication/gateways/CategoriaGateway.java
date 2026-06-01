@@ -8,6 +8,6 @@ public interface CategoriaGateway {
 
     Categoria cadastrarCategoria(Categoria categoria);
 
-    List<Categoria> listaCategoria();
+    List<Categoria> listarCategoria();
 
 }

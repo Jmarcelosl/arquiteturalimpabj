@@ -8,7 +8,7 @@ public interface AvaliacaoGateway {
 
     Avaliacao cadastrarAvaliacao(Avaliacao avaliacao);
 
-    List<Avaliacao> listaAvaliacao();
+    List<Avaliacao> listarAvaliacao();
 
     Avaliacao finalizarAvaliacao(Integer id);
 }

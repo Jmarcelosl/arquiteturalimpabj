@@ -8,5 +8,5 @@ public interface JogoGateway {
 
     Jogo cadastrarJogo(Jogo jogo);
 
-    List<Jogo> listaJogo();
+    List<Jogo> listarJogo();
 }
