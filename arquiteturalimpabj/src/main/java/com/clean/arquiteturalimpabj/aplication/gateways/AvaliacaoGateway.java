@@ -1,5 +1,14 @@
 package com.clean.arquiteturalimpabj.aplication.gateways;
 
-public class AvaliacaoGateway {
+import java.util.List;
 
+import com.clean.arquiteturalimpabj.domain.Avaliacao;
+
+public interface AvaliacaoGateway {
+
+    Avaliacao cadastrarAvaliacao(Avaliacao avaliacao);
+
+    List<Avaliacao> listaAvaliacao();
+
+    Avaliacao finalizarAvaliacao(Integer id);
 }
