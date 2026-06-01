@@ -1,5 +1,7 @@
 package com.clean.arquiteturalimpabj.domain;
 
-public class Avaliacao {
+public record Avaliacao(String valorAvaliacao,
+        String descricao,
+        String statusAvaliacao) {
 
 }

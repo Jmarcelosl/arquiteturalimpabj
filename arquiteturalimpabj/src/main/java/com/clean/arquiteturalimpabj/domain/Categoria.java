@@ -1,5 +1,5 @@
 package com.clean.arquiteturalimpabj.domain;
 
-public class Categoria {
-
+public record Categoria(String titulo,
+                String descricao) {
 }
